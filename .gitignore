@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+.vercel/
+*.tsbuildinfo
+
+# Local files
+uploads/
+*.log
+.DS_Store
+.vscode/
+.idea/
